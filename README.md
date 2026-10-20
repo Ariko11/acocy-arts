@@ -1,21 +1,12 @@
 # Acocy Arts
 
-The active website is at the repository root. The original uploaded v2 copy remains in `acocy-arts-website-v2/acocy-arts-site/` as a reference; edit root files for future changes.
+Active site files are at the repository root. The nested v2 directory is the original archive.
 
-## Publish
+- index.html: compact commission showcase and add-on information.
+- links.html: link-in-bio page.
+- showcase.css and showcase.js: shared presentation and social links.
+- site-config.js: existing prices, availability and social handles. Fill in confirmed handles to show social buttons. Prices are shown in the approved sheet; no price picker is used.
+- styles.css: existing policy-page styling.
+- terms.html, copyright.html, privacy.html, legal.html: policy pages. Legal operator details remain unfinished.
 
-In repository Settings → Pages, select Deploy from a branch, then main and /(root), and Save. No build tools are needed.
-
-## Edit
-
-- `site-config.js`: prices, commission status and social handles. Existing uploaded prices are preserved.
-- `index.html`: commission homepage.
-- `links.html`: link-in-bio page; social buttons appear when configured.
-- `styles.css`: soft pink responsive design.
-- `terms.html`, `copyright.html`, `privacy.html`, `legal.html`: existing policy pages; legal notice still contains unfinished operator details.
-
-No checkout or payments run on this website. No custom domain has been configured.
-
-## Images
-
-Only the approved finished commission sheet and its existing crop appear. The newly supplied IMG_0038.png icon has not yet been uploaded to this repository. Broken favicon references have been removed pending that upload. Do not substitute stock or generated images. See AGENTS.md.
+GitHub Pages publishes main / root. No checkout, forms or commission selector. Only approved images are displayed. assets/favicon.png is the supplied icon; assets/acocy-avatar.png is the owner's replacement avatar. See AGENTS.md for image and voice constraints.
